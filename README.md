@@ -68,6 +68,9 @@ Al-Wadi Library addresses the need for accessible, well-cataloged Arabic digital
 - **IndexedDB Offline Engine:** Client-side IndexedDB database (`alwadi_library_db`) storing downloaded book blobs and metadata for offline reading.
 - **Capacitor Mobile Bridge:** Built-in compatibility with `@capacitor/core` and `@capacitor/filesystem` for native Android packaging.
 - **Resilient Fallback:** Graceful fallback to cached local seed datasets if network connectivity or backend services are temporarily unavailable.
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/23479b01-a5f8-4513-b91a-ef983c58a0f5" />
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/29b13fd8-e45b-4c17-8968-13f6bbf30962" />
+
 
 
 ---
