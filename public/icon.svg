@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#064e3b" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#grad)" />
+  <!-- Open Book Symbol -->
+  <g transform="translate(96, 120) scale(0.625)" fill="none" stroke="#ffffff" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 60,380 C 140,340 240,340 256,400 C 272,340 372,340 452,380 L 452,100 C 372,60 272,60 256,120 C 240,60 140,60 60,100 Z" fill="#ffffff" fill-opacity="0.1" />
+    <path d="M 256,120 L 256,400" />
+    <path d="M 120,180 C 160,160 210,160 230,180" stroke="url(#gold)" stroke-width="16" />
+    <path d="M 120,240 C 160,220 210,220 230,240" stroke="url(#gold)" stroke-width="16" />
+  </g>
+</svg>

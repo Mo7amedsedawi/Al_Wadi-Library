@@ -1,0 +1,6 @@
+{
+  "name": "مكتبة الوادي - Al-Wadi Library",
+  "description": "تطبيق مكتبة الوادي الرقمية للقراءة وتصفح أندر وأجمل الكتب والمؤلفات العربية مع تجربة تصفح هاتفية متطورة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

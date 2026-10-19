@@ -1,0 +1,28 @@
+{
+  "name": "مكتبة الوادي - Al-Wadi Library",
+  "short_name": "مكتبة الوادي",
+  "description": "تطبيق مكتبة الوادي الرقمية لتصفح وتحميل أندر الكتب والمؤلفات العربية مع إمكانية الوصول الكامل دون اتصال بالإنترنت.",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#091410",
+  "theme_color": "#059669",
+  "dir": "rtl",
+  "lang": "ar",
+  "categories": ["books", "education", "lifestyle"],
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

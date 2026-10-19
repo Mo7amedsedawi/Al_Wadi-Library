@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+@layer base {
+  :root,
+  [data-theme="light"] {
+    --bg-primary: #f8faf8;
+    --bg-surface: #ffffff;
+    --bg-surface-elevated: #ffffff;
+    --bg-secondary: #f0f4f1;
+    --bg-muted: #e6ede8;
+    --text-primary: #121e1a;
+    --text-secondary: #4a5d56;
+    --text-muted: #788c83;
+    --border-subtle: #e2ebe5;
+    --border-strong: #c8d8cf;
+    --brand-primary: #0a6c4c;
+    --brand-primary-hover: #08563c;
+    --brand-light: #e8f5ef;
+    --brand-surface: #f0f9f5;
+    --brand-gold: #c59b27;
+    --brand-gold-light: #fef7e6;
+    --danger: #dc2626;
+    --danger-light: #fef2f2;
+    --shadow-soft: 0 4px 20px -2px rgba(10, 40, 30, 0.05);
+    --shadow-card: 0 10px 25px -5px rgba(10, 40, 30, 0.07), 0 8px 10px -6px rgba(10, 40, 30, 0.04);
+    --shadow-float: 0 20px 30px -10px rgba(10, 40, 30, 0.12);
+  }
+
+  [data-theme="dark"] {
+    --bg-primary: #0d1513;
+    --bg-surface: #14201d;
+    --bg-surface-elevated: #1a2a26;
+    --bg-secondary: #1a2824;
+    --bg-muted: #243833;
+    --text-primary: #f2f7f4;
+    --text-secondary: #a3b8af;
+    --text-muted: #6f857b;
+    --border-subtle: #22352f;
+    --border-strong: #314b43;
+    --brand-primary: #10b981;
+    --brand-primary-hover: #34d399;
+    --brand-light: #133328;
+    --brand-surface: #122820;
+    --brand-gold: #d4af37;
+    --brand-gold-light: #2d2613;
+    --danger: #ef4444;
+    --danger-light: #361616;
+    --shadow-soft: 0 4px 20px -2px rgba(0, 0, 0, 0.4);
+    --shadow-card: 0 10px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.3);
+    --shadow-float: 0 20px 30px -10px rgba(0, 0, 0, 0.6);
+  }
+
+  body {
+    font-family: 'Cairo', system-ui, -apple-system, sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    transition: background-color 0.25s ease, color 0.25s ease;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Custom scrollbar for carousels */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--border-strong);
+  border-radius: 9999px;
+}
+
+/* Reader Typography Styles */
+.font-amiri {
+  font-family: 'Amiri', serif;
+}
+.font-tajawal {
+  font-family: 'Tajawal', sans-serif;
+}
+.font-cairo {
+  font-family: 'Cairo', sans-serif;
+}
+
+/* Safe area insets for mobile app wrapper */
+.safe-area-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 16px);
+}
+.safe-area-top {
+  padding-top: env(safe-area-inset-top, 16px);
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
