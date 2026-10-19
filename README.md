@@ -38,7 +38,8 @@ Al-Wadi Library addresses the need for accessible, well-cataloged Arabic digital
 - **User Favorites:** Authenticated users can bookmark books with persistent storage synced to Supabase.
 - **Book Request System:** Readers can submit requests for specific books or editions, with real-time status tracking (`pending`, `fulfilled`, `rejected`).
 - **Library Support & Contact:** Built-in contact channels and donation interfaces to support ongoing digitization efforts.
-- <img width="1895" height="922" alt="image" src="https://github.com/user-attachments/assets/9c2c813d-078b-4517-99b3-a707e1ad6fc9" />
+<img width="1895" height="927" alt="image" src="https://github.com/user-attachments/assets/cfc2669a-9306-41d4-9513-dfce53c79d2b" />
+
 
 
 ### Community & Interactivity
@@ -59,6 +60,8 @@ Al-Wadi Library addresses the need for accessible, well-cataloged Arabic digital
 - **Comment Moderation:** Dedicated review panel to investigate reported comments and take corrective action.
 - **Analytics & Telemetry:** Aggregated metrics showing download statistics, view counts, and popular titles.
 - **Database Health Monitor:** In-app connection tester and schema verification tool for Supabase tables and storage buckets.
+- <img width="1895" height="922" alt="image" src="https://github.com/user-attachments/assets/9c2c813d-078b-4517-99b3-a707e1ad6fc9" />
+- 
 
 ### Offline Support & Mobile Readiness
 - **Progressive Web App (PWA):** Web App Manifest (`manifest.json`) and mobile meta tags for home screen installation.
